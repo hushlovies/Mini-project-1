@@ -50,8 +50,7 @@ public class Carte {
 		else if(idxThis < idxOther)
 			return -1;
 		else return 0;
-	};
-	
+	}	
 	
 	
 }

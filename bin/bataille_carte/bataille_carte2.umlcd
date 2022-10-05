@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_ayVEIEUJEe2HvbhxrC1hGQ">
+  <modelElement href="bataille_carte2.uml#_a7mU4EUJEe2HvbhxrC1hGQ"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_fZdAQEUJEe2HvbhxrC1hGQ" source="_fZgqoEUJEe2HvbhxrC1hGQ">
+    <modelElement href="bataille_carte2.uml#_a_GU0EUJEe2HvbhxrC1hGQ"/>
+    <stereotypes xmi:id="_fZdAQUUJEe2HvbhxrC1hGQ" name="Reference">
+      <modelElement href="bataille_carte2.uml#_a_Hi8EUJEe2HvbhxrC1hGQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_fZdAQkUJEe2HvbhxrC1hGQ" text=""/>
+    <sourceRole xmi:id="_fZdAQ0UJEe2HvbhxrC1hGQ" aggregationKind="NONE" name="">
+      <modelElement href="bataille_carte2.uml#_a_GU0UUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_fZdAREUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZdARUUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_fZdARkUJEe2HvbhxrC1hGQ" aggregationKind="NONE" name="rnd" navigable="true">
+      <modelElement href="bataille_carte2.uml#_a-WG4EUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_fZdAR0UJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZdASEUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_faErUEUJEe2HvbhxrC1hGQ" source="_faQ4kEUJEe2HvbhxrC1hGQ">
+    <modelElement href="bataille_carte2.uml#_a_IKAEUJEe2HvbhxrC1hGQ"/>
+    <stereotypes xmi:id="_faErUUUJEe2HvbhxrC1hGQ" name="Reference">
+      <modelElement href="bataille_carte2.uml#_a_JYIEUJEe2HvbhxrC1hGQ"/>
+    </stereotypes>
+    <nameVisual xmi:id="_faErUkUJEe2HvbhxrC1hGQ" text=""/>
+    <sourceRole xmi:id="_faErU0UJEe2HvbhxrC1hGQ" aggregationKind="NONE" name="">
+      <modelElement href="bataille_carte2.uml#_a_IKAUUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_faErVEUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_faErVUUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_faErVkUJEe2HvbhxrC1hGQ" aggregationKind="NONE" name="carteDeck" navigable="true">
+      <modelElement href="bataille_carte2.uml#_a-bmcEUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_faErV0UJEe2HvbhxrC1hGQ" label="~"/>
+      <cardinality xmi:id="_faErWEUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fZgqoEUJEe2HvbhxrC1hGQ" name="Carte" associationsOut="_fZdAQEUJEe2HvbhxrC1hGQ">
+    <modelElement href="bataille_carte2.uml#_a8OnAEUJEe2HvbhxrC1hGQ"/>
+    <visualProperties xmi:id="_fZgqoUUJEe2HvbhxrC1hGQ" position="137.0,36.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fZgqokUJEe2HvbhxrC1hGQ" label="+"/>
+    <attributes xmi:id="_fZgqo0UJEe2HvbhxrC1hGQ" defaultValue="List.of(&quot;2&quot;,&quot;3&quot;,&quot;4&quot;,&quot;5&quot;,&quot;6&quot;,&quot;7&quot;,&quot;8&quot;,&quot;9&quot;,&quot;10&quot;,&quot;Valet&quot;,&quot;Reine&quot;,&quot;Roi&quot;,&quot;As&quot;)" name="valeurs" staticAttribute="true">
+      <modelElement href="bataille_carte2.uml#_a-ScgEUJEe2HvbhxrC1hGQ"/>
+      <stereotypes xmi:id="_fZgqpEUJEe2HvbhxrC1hGQ" name="LegacyStyledElement">
+        <modelElement href="bataille_carte2.uml#_a-URsEUJEe2HvbhxrC1hGQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fZgqpUUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZgqpkUJEe2HvbhxrC1hGQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_fZgqp0UJEe2HvbhxrC1hGQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fZgqqEUJEe2HvbhxrC1hGQ" defaultValue="List.of(&quot;Trefle&quot;,&quot;Pique&quot;,&quot;Carreau&quot;,&quot;Coeur&quot;)" name="couleurs" staticAttribute="true">
+      <modelElement href="bataille_carte2.uml#_a-URsUUJEe2HvbhxrC1hGQ"/>
+      <stereotypes xmi:id="_fZgqqUUJEe2HvbhxrC1hGQ" name="LegacyStyledElement">
+        <modelElement href="bataille_carte2.uml#_a-Vf0EUJEe2HvbhxrC1hGQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fZgqqkUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZgqq0UJEe2HvbhxrC1hGQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_fZgqrEUJEe2HvbhxrC1hGQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fZgqrUUJEe2HvbhxrC1hGQ" defaultValue="new Random()" name="rnd" staticAttribute="true">
+      <modelElement href="bataille_carte2.uml#_a-WG4EUJEe2HvbhxrC1hGQ"/>
+      <stereotypes xmi:id="_fZgqrkUJEe2HvbhxrC1hGQ" name="LegacyStyledElement">
+        <modelElement href="bataille_carte2.uml#_a-XVAEUJEe2HvbhxrC1hGQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fZgqr0UJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZgqsEUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fZgqsUUJEe2HvbhxrC1hGQ" name="Random">
+        <modelElement href="bataille_carte2.uml#_a99FUEUJEe2HvbhxrC1hGQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fZgqskUJEe2HvbhxrC1hGQ" name="valeur">
+      <modelElement href="bataille_carte2.uml#_a-XVAUUJEe2HvbhxrC1hGQ"/>
+      <stereotypes xmi:id="_fZgqs0UJEe2HvbhxrC1hGQ" name="LegacyStyledElement">
+        <modelElement href="bataille_carte2.uml#_a-YjIEUJEe2HvbhxrC1hGQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fZgqtEUJEe2HvbhxrC1hGQ" label="~"/>
+      <cardinality xmi:id="_fZgqtUUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fZgqtkUJEe2HvbhxrC1hGQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_fZgqt0UJEe2HvbhxrC1hGQ" name="couleur">
+      <modelElement href="bataille_carte2.uml#_a-ZKMEUJEe2HvbhxrC1hGQ"/>
+      <stereotypes xmi:id="_fZgquEUJEe2HvbhxrC1hGQ" name="LegacyStyledElement">
+        <modelElement href="bataille_carte2.uml#_a-aYUEUJEe2HvbhxrC1hGQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fZgquUUJEe2HvbhxrC1hGQ" label="~"/>
+      <cardinality xmi:id="_fZgqukUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <type xmi:id="_fZgqu0UJEe2HvbhxrC1hGQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_fZgqvEUJEe2HvbhxrC1hGQ" name="getValeur">
+      <modelElement href="bataille_carte2.uml#_a8RDQEUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_fZgqvUUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZgqvkUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fZgqv0UJEe2HvbhxrC1hGQ">
+        <modelElement href="bataille_carte2.uml#_a8RDQUUJEe2HvbhxrC1hGQ"/>
+        <type xmi:id="_fZgqwEUJEe2HvbhxrC1hGQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fZgqwUUJEe2HvbhxrC1hGQ" name="setValeur">
+      <modelElement href="bataille_carte2.uml#_a8SRYEUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_fZgqwkUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZgqw0UJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fZgqxEUJEe2HvbhxrC1hGQ" name="val">
+        <modelElement href="bataille_carte2.uml#_a8SRYUUJEe2HvbhxrC1hGQ"/>
+        <cardinality xmi:id="_fZgqxUUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fZgqxkUJEe2HvbhxrC1hGQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fZgqx0UJEe2HvbhxrC1hGQ" name="getCouleur">
+      <modelElement href="bataille_carte2.uml#_a8S4cEUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_fZgqyEUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZgqyUUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fZgqykUJEe2HvbhxrC1hGQ">
+        <modelElement href="bataille_carte2.uml#_a8TfgEUJEe2HvbhxrC1hGQ"/>
+        <type xmi:id="_fZgqy0UJEe2HvbhxrC1hGQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fZgqzEUJEe2HvbhxrC1hGQ" name="setCoueur">
+      <modelElement href="bataille_carte2.uml#_a8UGkEUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_fZgqzUUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZgqzkUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fZgqz0UJEe2HvbhxrC1hGQ" name="val">
+        <modelElement href="bataille_carte2.uml#_a8UGkUUJEe2HvbhxrC1hGQ"/>
+        <cardinality xmi:id="_fZgq0EUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fZgq0UUJEe2HvbhxrC1hGQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_fZgq0kUJEe2HvbhxrC1hGQ" name="Carte">
+      <modelElement href="bataille_carte2.uml#_a8UtoEUJEe2HvbhxrC1hGQ"/>
+      <keywords xmi:id="_fZgq00UJEe2HvbhxrC1hGQ" keyword="create"/>
+      <visibility xmi:id="_fZgq1EUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZgq1UUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fZgq1kUJEe2HvbhxrC1hGQ">
+        <modelElement href="bataille_carte2.uml#_a8VUskUJEe2HvbhxrC1hGQ"/>
+        <type xmi:id="_fZgq10UJEe2HvbhxrC1hGQ" name="Carte">
+          <modelElement href="bataille_carte2.uml#_a8OnAEUJEe2HvbhxrC1hGQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fZgq2EUJEe2HvbhxrC1hGQ" name="toString">
+      <modelElement href="bataille_carte2.uml#_a8V7wEUJEe2HvbhxrC1hGQ"/>
+      <stereotypes xmi:id="_fZgq2UUJEe2HvbhxrC1hGQ" name="LegacyStyledElement">
+        <modelElement href="bataille_carte2.uml#_a8XJ4EUJEe2HvbhxrC1hGQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_fZgq2kUJEe2HvbhxrC1hGQ" name="Annotations">
+        <modelElement href="bataille_carte2.uml#_a8YYAEUJEe2HvbhxrC1hGQ"/>
+      </stereotypes>
+      <visibility xmi:id="_fZgq20UJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZgq3EUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fZgq3UUJEe2HvbhxrC1hGQ">
+        <modelElement href="bataille_carte2.uml#_a8Wi0EUJEe2HvbhxrC1hGQ"/>
+        <type xmi:id="_fZgq3kUJEe2HvbhxrC1hGQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_fZgq30UJEe2HvbhxrC1hGQ" name="compareCarte">
+      <modelElement href="bataille_carte2.uml#_a-AIoEUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_fZgq4EUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fZgq4UUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_fZgq4kUJEe2HvbhxrC1hGQ">
+        <modelElement href="bataille_carte2.uml#_a-AvsEUJEe2HvbhxrC1hGQ"/>
+        <type xmi:id="_fZgq40UJEe2HvbhxrC1hGQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_fZgq5EUJEe2HvbhxrC1hGQ" name="other">
+        <modelElement href="bataille_carte2.uml#_a-AIoUUJEe2HvbhxrC1hGQ"/>
+        <cardinality xmi:id="_fZgq5UUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+        <type xmi:id="_fZgq5kUJEe2HvbhxrC1hGQ" name="Carte">
+          <modelElement href="bataille_carte2.uml#_a8OnAEUJEe2HvbhxrC1hGQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_faQ4kEUJEe2HvbhxrC1hGQ" name="Joueurs" associationsOut="_faErUEUJEe2HvbhxrC1hGQ">
+    <modelElement href="bataille_carte2.uml#_a8bbUEUJEe2HvbhxrC1hGQ"/>
+    <visualProperties xmi:id="_faQ4kUUJEe2HvbhxrC1hGQ" position="574.0,168.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_faQ4kkUJEe2HvbhxrC1hGQ" label="+"/>
+    <attributes xmi:id="_faQ4k0UJEe2HvbhxrC1hGQ" name="carteDeck">
+      <modelElement href="bataille_carte2.uml#_a-bmcEUJEe2HvbhxrC1hGQ"/>
+      <stereotypes xmi:id="_faQ4lEUJEe2HvbhxrC1hGQ" name="Generics">
+        <modelElement href="bataille_carte2.uml#_a-epwEUJEe2HvbhxrC1hGQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_faQ4lUUJEe2HvbhxrC1hGQ" name="LegacyStyledElement">
+        <modelElement href="bataille_carte2.uml#_a-hGAEUJEe2HvbhxrC1hGQ"/>
+      </stereotypes>
+      <visibility xmi:id="_faQ4lkUJEe2HvbhxrC1hGQ" label="~"/>
+      <cardinality xmi:id="_faQ4l0UJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <type xmi:id="_faQ4mEUJEe2HvbhxrC1hGQ" name="Stack">
+        <modelElement href="bataille_carte2.uml#_a-Ck4EUJEe2HvbhxrC1hGQ"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_faQ4mUUJEe2HvbhxrC1hGQ" name="score">
+      <modelElement href="bataille_carte2.uml#_a-iUIEUJEe2HvbhxrC1hGQ"/>
+      <stereotypes xmi:id="_faQ4mkUJEe2HvbhxrC1hGQ" name="LegacyStyledElement">
+        <modelElement href="bataille_carte2.uml#_a-i7MEUJEe2HvbhxrC1hGQ"/>
+      </stereotypes>
+      <visibility xmi:id="_faQ4m0UJEe2HvbhxrC1hGQ" label="~"/>
+      <cardinality xmi:id="_faQ4nEUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <type xmi:id="_faQ4nUUJEe2HvbhxrC1hGQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_faQ4nkUJEe2HvbhxrC1hGQ" name="Joueurs">
+      <modelElement href="bataille_carte2.uml#_a8cpcEUJEe2HvbhxrC1hGQ"/>
+      <keywords xmi:id="_faQ4n0UJEe2HvbhxrC1hGQ" keyword="create"/>
+      <visibility xmi:id="_faQ4oEUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_faQ4oUUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_faQ4okUJEe2HvbhxrC1hGQ">
+        <modelElement href="bataille_carte2.uml#_a8dQgEUJEe2HvbhxrC1hGQ"/>
+        <type xmi:id="_faQ4o0UJEe2HvbhxrC1hGQ" name="Joueurs">
+          <modelElement href="bataille_carte2.uml#_a8bbUEUJEe2HvbhxrC1hGQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_faQ4pEUJEe2HvbhxrC1hGQ" name="getNombreCarte">
+      <modelElement href="bataille_carte2.uml#_a8dQgUUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_faQ4pUUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_faQ4pkUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_faQ4p0UJEe2HvbhxrC1hGQ">
+        <modelElement href="bataille_carte2.uml#_a8d3kEUJEe2HvbhxrC1hGQ"/>
+        <type xmi:id="_faQ4qEUJEe2HvbhxrC1hGQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_faQ4qUUJEe2HvbhxrC1hGQ" name="tirer">
+      <modelElement href="bataille_carte2.uml#_a8d3kUUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_faQ4qkUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_faQ4q0UJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_faQ4rEUJEe2HvbhxrC1hGQ">
+        <modelElement href="bataille_carte2.uml#_a-FBIEUJEe2HvbhxrC1hGQ"/>
+        <type xmi:id="_faQ4rUUJEe2HvbhxrC1hGQ" name="Carte">
+          <modelElement href="bataille_carte2.uml#_a8OnAEUJEe2HvbhxrC1hGQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_faQ4rkUJEe2HvbhxrC1hGQ" name="score">
+      <modelElement href="bataille_carte2.uml#_a8fFsEUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_faQ4r0UJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_faQ4sEUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_faQ4sUUJEe2HvbhxrC1hGQ" name="valeur">
+        <modelElement href="bataille_carte2.uml#_a8fFsUUJEe2HvbhxrC1hGQ"/>
+        <cardinality xmi:id="_faQ4skUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+        <type xmi:id="_faQ4s0UJEe2HvbhxrC1hGQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_faQ4tEUJEe2HvbhxrC1hGQ" name="getScore">
+      <modelElement href="bataille_carte2.uml#_a8fswEUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_faQ4tUUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_faQ4tkUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_faQ4t0UJEe2HvbhxrC1hGQ">
+        <modelElement href="bataille_carte2.uml#_a8fswUUJEe2HvbhxrC1hGQ"/>
+        <type xmi:id="_faQ4uEUJEe2HvbhxrC1hGQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_faQ4uUUJEe2HvbhxrC1hGQ" name="ajouter">
+      <modelElement href="bataille_carte2.uml#_a-FoMEUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_faQ4ukUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_faQ4u0UJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_faQ4vEUJEe2HvbhxrC1hGQ" name="c">
+        <modelElement href="bataille_carte2.uml#_a-FoMUUJEe2HvbhxrC1hGQ"/>
+        <cardinality xmi:id="_faQ4vUUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+        <type xmi:id="_faQ4vkUJEe2HvbhxrC1hGQ" name="Carte">
+          <modelElement href="bataille_carte2.uml#_a8OnAEUJEe2HvbhxrC1hGQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_fYq9IEUJEe2HvbhxrC1hGQ" name="Bataille">
+    <modelElement href="bataille_carte2.uml#_a8GEIEUJEe2HvbhxrC1hGQ"/>
+    <visualProperties xmi:id="_fYq9IUUJEe2HvbhxrC1hGQ" position="639.0,44.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_fYq9IkUJEe2HvbhxrC1hGQ" label="+"/>
+    <operations xmi:id="_fYq9I0UJEe2HvbhxrC1hGQ" name="main" staticOperation="true">
+      <modelElement href="bataille_carte2.uml#_a8KVkEUJEe2HvbhxrC1hGQ"/>
+      <visibility xmi:id="_fYq9JEUJEe2HvbhxrC1hGQ" label="+"/>
+      <cardinality xmi:id="_fYq9JUUJEe2HvbhxrC1hGQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_fYq9JkUJEe2HvbhxrC1hGQ" name="args">
+        <modelElement href="bataille_carte2.uml#_a8K8oEUJEe2HvbhxrC1hGQ"/>
+        <cardinality xmi:id="_fYq9J0UJEe2HvbhxrC1hGQ" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_fYq9KEUJEe2HvbhxrC1hGQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
